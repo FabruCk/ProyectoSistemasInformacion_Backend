@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-
+# modelos test github probando las ramas
 # Usuario a iniciar el manejo (Administrador, Empleado, Supervisor)
 class UserProfile(models.Model):
     ROLE_CHOICES = (
